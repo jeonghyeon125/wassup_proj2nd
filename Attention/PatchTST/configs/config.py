@@ -5,7 +5,7 @@ config = {
         "data_test":"../data/test.csv",
         "output": "./submit/model_",
         "submission":"./submit/submission_",
-        "name": "100epoch_256hiddendim_prelu"
+        "name": "no.6_PReLU_MSE_res_512_1024"
     },
     "model_params": {
         "tst_size" : 96,
