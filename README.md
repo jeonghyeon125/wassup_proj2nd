@@ -39,11 +39,29 @@ Prosumer란 판매나 교환을 위해서라기보다 자신의 사용이나 만
 
 **preprocessing**
 +  생산량과 소비량이 하나의 df에 묶여있으므로 production과 consumption 데이터를 각각의 데이터프레임으로 만든다
-+  new_target(production의 target - consumption의 target)을 생성하여 net_target을 예측한다.
++  new_target(production target - consumption target)을 생성하여 net_target을 예측한다.
 </br></br>
 
 
 ## 학습
+**전략**
++ Multi-Tasking
+  Production과 Consumption을 각각 예측한 후 서로 값을 빼서 결과값을 도출한다.
+  ![image](https://github.com/user-attachments/assets/699f8b12-6d7f-424f-9c9a-568ca047b11c)
+
++ Multi-Channel
+  "target" column을 분리하여 new-target을 새로운 feature로 추가한다.
+  ![image](https://github.com/user-attachments/assets/2f11d26d-688c-410f-81ac-f3134ca8f078)
+  
+
++ Residual learning & skip connection
+  residual learning과 skip connection을 이용하여 학습량을 감소시킨다.
+  multi-channel의 오류를 보완할 수 있다.
+  ![image](https://github.com/user-attachments/assets/6e8742e1-b2b4-4115-84c4-d6e363f89865)
+
+</br>
+
+
 **사용모델**
 + ARIMA
 + ANN
