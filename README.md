@@ -46,16 +46,22 @@ Prosumer란 판매나 교환을 위해서라기보다 자신의 사용이나 만
 ## 학습
 **전략**
 + Multi-Tasking
+
+
   Production과 Consumption을 각각 예측한 후 서로 값을 빼서 결과값을 도출한다.
   ![image](https://github.com/user-attachments/assets/699f8b12-6d7f-424f-9c9a-568ca047b11c)
 
 + Multi-Channel
+
+  
   "target" column을 분리하여 new-target을 새로운 feature로 추가한다.
   
   ![image](https://github.com/user-attachments/assets/2f11d26d-688c-410f-81ac-f3134ca8f078)
   
 
-+ Residual learning & skip connection
++ Residual learning
+
+  
   residual learning과 skip connection을 이용하여 학습량을 감소시킨다.
   multi-channel의 오류를 보완할 수 있다.
   ![image](https://github.com/user-attachments/assets/6e8742e1-b2b4-4115-84c4-d6e363f89865)
