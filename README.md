@@ -3,7 +3,6 @@
 - 팀장: 이유성
 - 팀원: 강현준, 김정현, 박지연, 윤재현
 
-- ---
 ## DATA(Time Series)
 
 Enefit - Predict Energy Behavior of Prosumers
@@ -12,7 +11,7 @@ Data Source:
 </br>
 https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/overview
 </br></br>
-**Prosumer**:Producer + Consumer
+**Prosumer** : Producer + Consumer
 </br>
 Prosumer란 판매나 교환을 위해서라기보다 자신의 사용이나 만족을 위해 제품, 서비스 또는 경험을 생산하는 사람이며, 개인 또는 집단이 생산하면서 동시에 소비하는 행위를 Prosuming이라고 한다. _ Alvin Toffler(엘빈 토플러, 『제3의 물결』)
 
