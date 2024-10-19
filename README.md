@@ -32,10 +32,10 @@ Prosumer란 판매나 교환을 위해서라기보다 자신의 사용이나 만
 + target: float
 </br></br>
 **preprocessing**
--  생산량과 소비량이 하나의 df에 묶여있으므로 production과 consumption 데이터를 각각의 데이터프레임으로 만든다
--  new_target(production의 target - consumption의 target)을 생성하여 net_target을 예측한다.
++  생산량과 소비량이 하나의 df에 묶여있으므로 production과 consumption 데이터를 각각의 데이터프레임으로 만든다
++  new_target(production의 target - consumption의 target)을 생성하여 net_target을 예측한다.
 
-##학습
+## 학습
 **사용모델**
 + ARIMA
 + ANN
