@@ -8,7 +8,9 @@
 
 Enefit - Predict Energy Behavior of Prosumers
 </br>
-Data Source: https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/overview
+Data Source: 
+</br>
+https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/overview
 </br></br>
 Prosumer
 </br>
@@ -41,7 +43,8 @@ Prosumer란 판매나 교환을 위해서라기보다 자신의 사용이나 만
 + R2SCORE
 
 + test results archive
-  : https://docs.google.com/spreadsheets/d/1cvwNjQtbZt77MvQrqNSvuSsO2zqvBoulk9GullcgOcY/edit?gid=11555230#gid=11555230
+  :
+  </br> https://docs.google.com/spreadsheets/d/1cvwNjQtbZt77MvQrqNSvuSsO2zqvBoulk9GullcgOcY/edit?gid=11555230#gid=11555230
   
 **결론**
 + ARIMA 모델을 베이스 모델로 사용하였으나 각 피크 지점을 잘 예측하지 못했다.
