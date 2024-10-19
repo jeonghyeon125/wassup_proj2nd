@@ -2,12 +2,14 @@
 
 - 팀장: 이유성
 - 팀원: 강현준, 김정현, 박지연, 윤재현
+</br></br>
 
 
 ## 문서
 최종발표 PPT
 </br>
 https://docs.google.com/presentation/d/1ai5eZ4hEShN-pKnJgVsPzjZPPk3Uf1jtNFkW8j8_gz8/edit
+</br></br>
 
 
 ## DATA(Time Series)
@@ -38,6 +40,7 @@ Prosumer란 판매나 교환을 위해서라기보다 자신의 사용이나 만
 **preprocessing**
 +  생산량과 소비량이 하나의 df에 묶여있으므로 production과 consumption 데이터를 각각의 데이터프레임으로 만든다
 +  new_target(production의 target - consumption의 target)을 생성하여 net_target을 예측한다.
+</br></br>
 
 
 ## 학습
