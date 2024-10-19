@@ -3,7 +3,7 @@
 - 팀장: 이유성
 - 팀원: 강현준, 김정현, 박지연, 윤재현
 
-# 문서
+## 문서
 최종발표 PPT
 </br>
 https://docs.google.com/presentation/d/1ai5eZ4hEShN-pKnJgVsPzjZPPk3Uf1jtNFkW8j8_gz8/edit
