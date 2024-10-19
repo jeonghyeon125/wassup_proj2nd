@@ -11,7 +11,7 @@ https://docs.google.com/presentation/d/1ai5eZ4hEShN-pKnJgVsPzjZPPk3Uf1jtNFkW8j8_
 ## DATA(Time Series)
 
 Enefit - Predict Energy Behavior of Prosumers
-</br>
+</br></br>
 Data Source: 
 </br>
 https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/overview
