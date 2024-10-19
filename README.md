@@ -8,7 +8,7 @@
 ## 문서
 최종발표 PPT
 </br>
-https://docs.google.com/presentation/d/1ai5eZ4hEShN-pKnJgVsPzjZPPk3Uf1jtNFkW8j8_gz8/edit
+[https://docs.google.com/presentation/d/1ai5eZ4hEShN-pKnJgVsPzjZPPk3Uf1jtNFkW8j8_gz8/edit](https://drive.google.com/file/d/1rAKUz-lo9m3YPIE2ArR8a-xOqf0NYoQy/view?usp=sharing)
 </br></br>
 
 
