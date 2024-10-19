@@ -30,7 +30,9 @@ Prosumer란 판매나 교환을 위해서라기보다 자신의 사용이나 만
 + is_consumption: 0 or 1
 + prediction_unit_id: int
 + target: float
-</br></br>
+</br>
+
+
 **preprocessing**
 +  생산량과 소비량이 하나의 df에 묶여있으므로 production과 consumption 데이터를 각각의 데이터프레임으로 만든다
 +  new_target(production의 target - consumption의 target)을 생성하여 net_target을 예측한다.
@@ -40,13 +42,17 @@ Prosumer란 판매나 교환을 위해서라기보다 자신의 사용이나 만
 + ARIMA
 + ANN
 + Transformer
-</br></br>
+</br>
+
+
 **Metrics**
 + MAPE
 + MAE
 + MSE
 + R2SCORE
-</br></br>
+</br>
+
+
 **test results archive**
 https://docs.google.com/spreadsheets/d/1cvwNjQtbZt77MvQrqNSvuSsO2zqvBoulk9GullcgOcY/edit?gid=11555230#gid=11555230
 </br></br>
