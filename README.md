@@ -17,16 +17,31 @@ Producer + Consumer
 Prosumer란 판매나 교환을 위해서라기보다 자신의 사용이나 만족을 위해 제품, 서비스 또는 경험을 생산하는 사람이며, 개인 또는 집단이 생산하면서 동시에 소비하는 행위를 Prosuming이라고 한다. _ Alvin Toffler(엘빈 토플러, 『제3의 물결』)
 
 **columns**
-+ country
-+ is_business
-+ product_type
-+ datetime
-+ data_block_id
-+ row_id
-+ is_consumption
-+ prediction_unit_id
-+ target: The consumption or production amount for the relevant segment for the hour. The segments are defined by the county, is_business, and product_type
++ country: int
++ is_business: 0 or 1
++ product_type: int
++ datetime: datetime
++ data_block_id: int
++ row_id: int
++ is_consumption: 0 or 1
++ prediction_unit_id: int
++ target: float
+-> 생산량과 소비량이 하나의 df에 묶여있으므로 production과 consumption 데이터를 각각의 데이터프레임으로 만든다
+-> new_target(production의 target - consumption의 target)을 생성하여 net_target을 예측한다.
 
+**사용모델**
++ ARIMA
++ ANN
++ Transformer
+
+**Metrics**
++ MAPE
++ MAE
++ MSE
++ R2SCORE
+
++ test results archive
+  : https://docs.google.com/spreadsheets/d/1cvwNjQtbZt77MvQrqNSvuSsO2zqvBoulk9GullcgOcY/edit?gid=11555230#gid=11555230
   
 **결론**
 + ARIMA 모델을 베이스 모델로 사용하였으나 각 피크 지점을 잘 예측하지 못했다.
