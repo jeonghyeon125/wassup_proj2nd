@@ -51,6 +51,7 @@ Prosumer란 판매나 교환을 위해서라기보다 자신의 사용이나 만
 
 + Multi-Channel
   "target" column을 분리하여 new-target을 새로운 feature로 추가한다.
+  
   ![image](https://github.com/user-attachments/assets/2f11d26d-688c-410f-81ac-f3134ca8f078)
   
 
