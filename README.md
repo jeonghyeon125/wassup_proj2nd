@@ -56,7 +56,9 @@ Prosumer란 판매나 교환을 위해서라기보다 자신의 사용이나 만
 **test results archive**
 https://docs.google.com/spreadsheets/d/1cvwNjQtbZt77MvQrqNSvuSsO2zqvBoulk9GullcgOcY/edit?gid=11555230#gid=11555230
 </br></br>
-**결론**
+
+
+## 결론
 + ARIMA 모델을 베이스 모델로 사용하였으나 각 피크 지점을 잘 예측하지 못했다.
 + 피크를 더 잘 예측하기 위해 ANN 모델을 사용하였고, ARIMA 보다 성능은 향상되었지만 여전히 피크 지점을 잘 예측하지 못했다.
 + Residual learning을 적용,  피크 지점 예측이 개선되었다.
